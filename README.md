@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# theAIDeveloper
 
-First, run the development server:
+Learn how to create your own AI apps.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+![Logo](https://d3erng0hrrd7m4.cloudfront.net/logo.png)
+
+## App Title
+
+**Description:** A recipe assistant application where users can input ingredients and difficulty levels to receive tailored recipe suggestions.
+
+**Structure:**
+```
+src/
+├── app/
+│   ├── api/
+│   │   └── recipes/
+│   │       └── route.ts       # API for managing recipes
+│   └── page.tsx               # Main application page
+├── components/
+│   ├── ui/
+│   │   ├── IngredientInput.tsx
+│   │   ├── RecipeList.tsx
+│   │   ├── RecipeSteps.tsx
+│   │   └── Loading.tsx
+├── types/
+│   └── index.d.ts             # Definition of shared types
+└── utils/
+    └── apiClient.ts           # Utility functions for API calls
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Technology:**
+- Next.js 15
+- TypeScript
+- OpenAI API
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Projects
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Explore various projects at [theAIDeveloper Projects](https://www.the-aideveloper.com/projects).
+
+## Guides
+
+Access more detailed guides at [theAIDeveloper Guides](https://www.the-aideveloper.com/guides).
+
+## Author
+
+**Carlos Polanco** - Carlos is an experienced developer passionate about creating AI solutions and sharing knowledge with the community.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+If you want to learn more, visit [theAIDeveloper.com](https://www.the-aideveloper.com).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Connect with Us
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [![YouTube](https://via.placeholder.com/15/000000/000000?text=+) YouTube](https://www.youtube.com/@theaideveloper)
+- [![Instagram](https://via.placeholder.com/15/000000/000000?text=+) Instagram](https://www.instagram.com/cptheaideveloper/)
+- [![Twitter](https://via.placeholder.com/15/000000/000000?text=+) Twitter](https://x.com/cpaideveloper)
+- [![TikTok](https://via.placeholder.com/15/000000/000000?text=+) TikTok](https://www.tiktok.com/@codingnutella)
+- [![LinkedIn](https://via.placeholder.com/15/000000/000000?text=+) LinkedIn](https://www.linkedin.com/company/theaidevelopercp/)
 
-## Deploy on Vercel
+## GitHub
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Visit our GitHub profile: [cpTheAideveloper](https://github.com/cpTheAideveloper)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Website
+
+Explore our website: [theAIDeveloper.com](https://www.the-aideveloper.com/)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
